@@ -1,0 +1,10 @@
+nav div a{
+    cursor: pointer;
+    font-size: 40px;
+}
+nav{
+    background-color: #EFBC9B;
+}
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: #FBF3D5 !important;
+  }

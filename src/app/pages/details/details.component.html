@@ -1,0 +1,53 @@
+<section class="d-flex align-items-center">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="pic">
+                    <img [src]="userInfo.avatar" alt="">
+                </div>
+                <div class="rating d-flex align-content-center pt-4">
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-7 d-flex align-items-center">
+                <table  height="150">
+                    <thead>
+                        <th>information</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fa-solid fa-address-card"></i> Id</td>
+                            <td>{{userInfo.id}}</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-user"></i> Name</td>
+                            <td>{{userInfo.first_name}}</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-user"></i> Last Name</td>
+                            <td>{{userInfo.last_name}}</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-envelope"></i> Email</td>
+                            <td>{{userInfo.email}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
